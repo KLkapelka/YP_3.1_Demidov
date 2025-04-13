@@ -1,0 +1,16 @@
+<Window x:Class="ProjectManagementApp.AssignRoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Назначение роли" Height="300" Width="400">
+    <Grid Margin="10">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Выбор роли -->
+            <Label Content="Выберите роль:" />
+            <ComboBox Name="cmbRoles" Width="200" Margin="0,0,0,10"/>
+
+            <!-- Кнопка "Назначить" -->
+            <Button Name="btnAssign" Content="Назначить" 
+                    Width="200" Margin="0,10,0,0" Click="BtnAssign_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

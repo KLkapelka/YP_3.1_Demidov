@@ -1,0 +1,32 @@
+<Window x:Class="ProjectManagementApp.AddTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавить задачу" Height="350" Width="400">
+    <Grid Margin="10">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Поле для названия задачи -->
+            <Label Content="Название задачи:" />
+            <TextBox Name="txtTaskName" Width="200" Margin="0,0,0,10"/>
+
+            <!-- Поле для описания задачи -->
+            <Label Content="Описание задачи:" />
+            <TextBox Name="txtTaskDescription" Width="200" Height="50" Margin="0,0,0,10"/>
+
+            <!-- Поле для выбора ответственного -->
+            <Label Content="Ответственный:" />
+            <ComboBox Name="cmbAssignedTo" Width="200" Margin="0,0,0,10" />
+
+            <!-- Поле для выбора статуса -->
+            <Label Content="Статус задачи:" />
+            <ComboBox Name="cmbStatus" Width="200" Margin="0,0,0,10">
+                <ComboBoxItem Content="В ожидании" />
+                <ComboBoxItem Content="В работе" />
+                <ComboBoxItem Content="Завершена" />
+            </ComboBox>
+
+            <!-- Кнопка "Добавить" -->
+            <Button Name="btnAddTask" Content="Добавить" 
+                    Width="200" Margin="0,10,0,0" Click="BtnAddTask_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

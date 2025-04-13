@@ -1,0 +1,24 @@
+﻿<Window x:Class="ProjectManagementApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Регистрация пользователя" Height="350" Width="400">
+    <Grid Margin="10">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Поле для ФИО -->
+            <Label Content="ФИО:" />
+            <TextBox Name="txtFullName" Width="200" Margin="0,0,0,10"/>
+            <!-- Поле для номера телефона -->
+            <Label Content="Номер телефона:" />
+            <TextBox Name="txtPhone" Width="200" Margin="0,0,0,10"/>
+            <!-- Поле для пароля -->
+            <Label Content="Пароль:" />
+            <PasswordBox Name="pwdPassword" Width="200" Margin="0,0,0,10"/>
+            <!-- Кнопка регистрации -->
+            <Button Name="btnRegister" Content="Зарегистрироваться"
+                    Width="200" Click="BtnRegister_Click"/>
+            <!-- Кнопка назад -->
+            <Button Name="btnBack" Content="Назад" 
+                    Width="200" Margin="0,10,0,0" Click="BtnBack_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

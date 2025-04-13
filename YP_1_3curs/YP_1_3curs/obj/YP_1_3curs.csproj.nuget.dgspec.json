@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "B:\\my\\новая папка\\техникум\\----ИСРПО Демидов\\УП\\code\\YP\\New_1_YP_3curs\\YP_1_3curs\\YP_1_3curs\\YP_1_3curs.csproj": {}
+  },
+  "projects": {
+    "B:\\my\\новая папка\\техникум\\----ИСРПО Демидов\\УП\\code\\YP\\New_1_YP_3curs\\YP_1_3curs\\YP_1_3curs\\YP_1_3curs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\my\\новая папка\\техникум\\----ИСРПО Демидов\\УП\\code\\YP\\New_1_YP_3curs\\YP_1_3curs\\YP_1_3curs\\YP_1_3curs.csproj",
+        "projectName": "YP_1_3curs",
+        "projectPath": "B:\\my\\новая папка\\техникум\\----ИСРПО Демидов\\УП\\code\\YP\\New_1_YP_3curs\\YP_1_3curs\\YP_1_3curs\\YP_1_3curs.csproj",
+        "packagesPath": "C:\\Users\\HHH\\.nuget\\packages\\",
+        "outputPath": "B:\\my\\новая папка\\техникум\\----ИСРПО Демидов\\УП\\code\\YP\\New_1_YP_3curs\\YP_1_3curs\\YP_1_3curs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HHH\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BCrypt.Net": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\HHH\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<Window x:Class="ProjectManagementApp.EnterProjectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Вход в проект" Height="300" Width="400">
+    <Grid Margin="10">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Поле для названия проекта -->
+            <Label Content="Название проекта:" />
+            <TextBox Name="txtProjectName" Width="200" Margin="0,0,0,10"/>
+
+            <!-- Поле для пароля проекта -->
+            <Label Content="Пароль проекта:" />
+            <PasswordBox Name="pwdProjectPassword" Width="200" Margin="0,0,0,10"/>
+
+            <!-- Кнопка "Войти в проект" -->
+            <Button Name="btnEnterProject" Content="Войти в проект" 
+                    Width="200" Click="BtnEnterProject_Click"/>
+            
+            <!-- Кнопка "назад" -->
+            <Button Name="btnBack" Content="Назад" 
+                    Width="200" Margin="0,10,0,0" Click="BtnBack_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

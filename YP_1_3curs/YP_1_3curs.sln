@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YP_1_3curs", "YP_1_3curs\YP_1_3curs.csproj", "{00DB5BCA-6765-41F1-9413-4A4B2E55E7A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00DB5BCA-6765-41F1-9413-4A4B2E55E7A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DB5BCA-6765-41F1-9413-4A4B2E55E7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DB5BCA-6765-41F1-9413-4A4B2E55E7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DB5BCA-6765-41F1-9413-4A4B2E55E7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
